@@ -1,37 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     padding: 0;
     margin: 0;
     width: 100%;
     font-family: 'Roboto',
-        sans-serif,'Raleway',
-            sans-serif;
+        sans-serif, 'Raleway',
+        sans-serif;
 }
-h1{
+
+h1 {
     font-size: 65px;
     font-weight: bold;
     padding: 1% 0;
     font-family: 'Raleway', sans-serif;
 }
-h2{
+
+h2 {
     font-size: 45px;
     font-weight: bold;
     padding: 1% 0;
     font-family: 'Raleway', sans-serif;
 }
-h3{
+
+h3 {
     font-size: 24px;
     font-family: 'Raleway', sans-serif;
 }
-p{
+
+p {
     font-size: 18px;
     padding: 1% 0;
     font-family: 'Roboto', sans-serif;
     color: #7c7b7b;
+    line-height: 1.5;
 }
+
 .btn {
     width: 140px;
     height: 50px;
@@ -39,21 +46,24 @@ p{
     border-radius: 5px;
     border: none;
     background-color: #FF5959;
-    color : #fff;
+    color: #fff;
     font-size: 20px;
     font-family: Roboto;
 }
-li{
+
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 /*------------------ BANER AREA  START -----------------*/
 .banner {
     width: 100%;
-    height: 45vh;
-    background-image: url(images/donation3.jpg);
+    height: 800px;
+    background-image: url(images/bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -64,35 +74,42 @@ a{
 
 .banner_content {
     width: 100%;
-    background: linear-gradient(transparent, black);
-    padding: 5% 5%;
+    background: linear-gradient(transparent, #00000052);
     height: 100%;
-    align-self: center;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    background-position: center;
+    justify-content: center;
     text-align: center;
     color: rgb(255, 255, 255);
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    align-items: center;
 }
-#banner_p{
-    width: 70%;
-    margin: auto;
+
+#banner_p {
+    width: 42%;
+    margin: 0 auto;
     color: rgb(255, 255, 255);
-    padding-bottom: 20px;
+    padding-bottom: 39px;
 }
+
 /*----------------- BANER AREA FINISHED -----------------*/
 
 /*------------------ Donatoin Area  START -----------------*/
 .donate_area {
     width: 90%;
-    padding: 100px 5%;
-    height: 45vh;
+    padding: 125px 5%;
+    height: 500px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
-.donate_area h1{
+.donate_area h1 {
     font-size: 35px;
 }
 
-.donate_area p{
+.donate_area p {
     width: 60%;
     margin: auto;
     display: flex;
@@ -106,7 +123,7 @@ a{
     display: flex;
     flex-direction: row;
     text-align: center;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     margin-bottom: 30px;
 }
@@ -131,25 +148,28 @@ a{
     border: 3px solid #FF8888;
     color: #FF5959;
 }
-.custom_amount {
-    width: 60%;
-    text-align: center;
 
+.custom_amount {
+    width: 27%;
+    text-align: center;
     border: none;
     border-bottom: 1px solid #cccccc;
     padding: 10px 5px;
     color: rgb(241, 241, 241);
 }
+
 .custom_amount:focus {
     outline: none !important;
 }
-input.custom_amount::placeholder{
+
+input.custom_amount::placeholder {
     border: none !important;
     color: rgb(201, 201, 201);
     border: 1px solid;
     font-size: 14px;
 }
-.donate_area_btn{
+
+.donate_area_btn {
     display: block;
     justify-content: center;
     margin: auto;
@@ -161,66 +181,173 @@ input.custom_amount::placeholder{
 
 /*------------------ Plan Area  START -----------------*/
 
-.plan_area{
+.plan_area {
     width: 100%;
     text-align: center;
 }
 
-.h_p{
+.h_p {
     width: 60%;
     margin: auto;
     text-align: center;
     padding-bottom: 50px;
 }
-.plan_container{
+
+.plan_container {
     display: flex;
-    text-align: left ;
+    text-align: left;
     width: 90%;
-    height: 40vh;
     margin: auto;
     justify-content: center;
     padding-bottom: 50px;
-
 }
-.plan{
-    width: 25%;
-    height: 225px;
-    padding: 40px 15px 20px 20px;
 
+.plan {
+    width: 25%;
+    height: 333px;
+    padding: 40px 15px 20px 20px;
     background-color: #EDF5F6;
     border-radius: 5px;
     margin: 0 10px;
 }
-.plan h3{
+
+.plan h3 {
     padding: 15px 0;
-    }
-.plan p{
+}
+
+.plan p {
     width: 100%;
     text-align: left;
     margin: 0;
     font-size: 16px;
 }
-#pink{
+
+#pink {
     background: #FFEEEE;
 }
-#yellow{
+
+#yellow {
     background: #FFF4D6;
 }
 
 /*----------------- Plan Area FINISHED -----------------*/
 
-.subscribe_area{
+/*------------------ Self Latest Area  START -----------------*/
+
+.latest {
+    width: 100%;
+    margin: auto;
+    padding: 87px 0;
+    text-align: center;
+}
+
+.latest h2 {
+    padding-bottom: 0;
+}
+
+.helping_photos {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.card {
+    width: 30%;
+
+    margin: auto;
+    margin: 0 20px;
+    border-radius: 10px;
+    border: 1px solid #ebebeb23;
+    box-shadow: 0 0 10px 0px #ccc;
+
+}
+
+img.card_img {
+    width: 100%;
+    height: 302px;
+    padding-bottom: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+}
+
+.card h3 {
+    padding-bottom: 20px;
+
+
+}
+
+/*----------------- Self Latest Area FINISHED -----------------*/
+
+/*------------------ Self JOin Area  START -----------------*/
+
+.join_area {
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+    background-image: url(images/bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.join_options {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    margin: 10px 20px;
+}
+
+.option h3 {
+    text-transform: uppercase;
+}
+
+.option img {
+
+    width: 90px;
+    height: 90px;
+    margin-right: 20px;
+}
+
+/*----------------- Self JOin Area FINISHED -----------------*/
+
+/*------------------ Subscribe area  START -----------------*/
+.subscribe_area {
     width: 60%;
     margin: auto;
     text-align: center;
     margin-top: 50px;
 
 }
-.subscribe_area p{
+
+.subscribe_area p {
     width: 80%;
     margin: auto;
 }
-.subscribe_input{
+
+.subscribe_input {
     width: 100%;
     height: 160px;
     display: flex;
@@ -232,28 +359,35 @@ input.custom_amount::placeholder{
     background: #FFF4D6;
     border-radius: 3px;
 }
-.sub{
+
+.sub {
     height: 50px;
     border: none;
     width: 40%;
     padding-left: 10px;
     background: #D9D9D9;
     border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
+
 input.sub:focus {
     outline: none !important;
 }
-.sub_btn{
+
+.sub_btn {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
 }
 
-input.sub::placeholder{
+input.sub::placeholder {
     color: #8f8f8f;
     font-size: 16px;
 }
-footer{
+
+/*----------------- Subscribe area FINISHED -----------------*/
+
+/*------------------ footer  START -----------------*/
+footer {
     width: 100%;
     height: 200px;
     background: #0B0D17;
@@ -263,7 +397,8 @@ footer{
     align-items: center;
     margin-top: 100px;
 }
-footer h3{
+
+footer h3 {
     font-family: 'Lobster', cursive;
     font-size: 36px;
     display: block;
@@ -272,6 +407,11 @@ footer h3{
     font-weight: normal;
     line-height: 44px;
 }
-footer p{
-    justify-content: center;
+
+footer>li {
+    display: flex;
+    color: #fff;
+    display: inline;
 }
+
+/*----------------- footer FINISHED -----------------*/
