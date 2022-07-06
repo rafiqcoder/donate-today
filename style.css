@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Roboto',
+        sans-serif,'Raleway',
+            sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 1% 0;
+    font-family: 'Raleway', sans-serif;
+}
+h2{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 1% 0;
+    font-family: 'Raleway', sans-serif;
+}
+h3{
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+    padding: 1% 0;
+    font-family: 'Roboto', sans-serif;
+    color: #7c7b7b;
+}
+.btn {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF5959;
+    color : #fff;
+    font-size: 15px;
+    font-family: Roboto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*------------------ BANER AREA  START -----------------*/
+.banner {
+    width: 100%;
+    height: 45vh;
+    background-image: url(images/donation3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+.banner_content {
+    width: 100%;
+    background: linear-gradient(transparent, black);
+    padding: 5% 5%;
+    height: 100%;
+    align-self: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+#banner_p{
+    width: 70%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+/*----------------- BANER AREA FINISHED -----------------*/
+
+/*------------------ Donatoin Area  START -----------------*/
+.donate_area {
+    width: 90%;
+    padding: 100px 5%;
+    height: 45vh;
+    text-align: center;
+}
+
+.donate_area h1{
+    font-size: 35px;
+}
+
+.donate_area p{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 35px;
+}
+
+.price_menu {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.list_item {
+    width: 90px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFAFA;
+    font-size: 23px;
+    font-weight: bold;
+    color: #707070;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+#active {
+    background: #FFEEEE;
+    border: 3px solid #FF8888;
+    color: #FF5959;
+}
+.custom_amount {
+    width: 60%;
+    text-align: center;
+
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 5px;
+    color: rgb(241, 241, 241);
+}
+input.custom_amount::placeholder{
+    border: none !important;
+    color: rgb(201, 201, 201);
+    border: 1px solid;
+    font-size: 14px;
+}
+.donate_area_btn{
+    display: block;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+/*----------------- Donatoin Area FINISHED -----------------*/
+
+/*------------------ Plan Area  START -----------------*/
+
+
+
+/*----------------- Plan Area FINISHED -----------------*/
