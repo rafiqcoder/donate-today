@@ -11,34 +11,36 @@ body{
             sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 65px;
     font-weight: bold;
     padding: 1% 0;
     font-family: 'Raleway', sans-serif;
 }
 h2{
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
     padding: 1% 0;
     font-family: 'Raleway', sans-serif;
 }
 h3{
-    font-size: 18px;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
 }
 p{
-    font-size: 16px;
+    font-size: 18px;
     padding: 1% 0;
     font-family: 'Roboto', sans-serif;
     color: #7c7b7b;
 }
 .btn {
-    width: 120px;
-    height: 40px;
+    width: 140px;
+    height: 50px;
+    padding: 0 5px;
     border-radius: 5px;
     border: none;
     background-color: #FF5959;
     color : #fff;
-    font-size: 15px;
+    font-size: 20px;
     font-family: Roboto;
 }
 li{
@@ -156,6 +158,95 @@ input.custom_amount::placeholder{
 
 /*------------------ Plan Area  START -----------------*/
 
+.plan_area{
+    width: 100%;
+    text-align: center;
+}
 
+.h_p{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.plan_container{
+    display: flex;
+    text-align: left ;
+    width: 90%;
+    height: 40vh;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+.plan{
+    width: 25%;
+    height: 225px;
+    padding: 40px 15px 20px 20px;
+
+    background-color: #EDF5F6;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+.plan h3{
+    padding: 15px 0;
+    }
+.plan p{
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    font-size: 16px;
+}
+#pink{
+    background: #FFEEEE;
+}
+#yellow{
+    background: #FFF4D6;
+}
 
 /*----------------- Plan Area FINISHED -----------------*/
+
+.subscribe_area{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.subscribe_area p{
+    width: 80%;
+    margin: auto;
+}
+.subscribe_input{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #FFF4D6;
+    border-radius: 3px;
+}
+.sub{
+    height: 50px;
+    border: none;
+    width: 40%;
+    padding-left: 10px;
+    background: #D9D9D9;
+    border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+}
+input.sub:focus {
+    outline: none !important;
+}
+.sub_btn{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+input.sub::placeholder{
+    color: #8f8f8f;
+    font-size: 16px;
+}
